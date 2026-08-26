@@ -1,16 +1,19 @@
 # LUNGA DRIVE INN
 
-This repository contains a minimal static website for LUNGA DRIVE INN.
+This branch (`site`) contains the updated website with a responsive hero, contact info, favicon, and social meta tags.
 
-Preview locally:
+What changed:
+- `index.html` — hero section, contact, meta tags for Open Graph/Twitter
+- `src/style.css` — responsive styles for hero and layout
+- `assets/favicon.svg` — simple SVG favicon
+- `assets/social-preview.svg` — social preview image used for OG/Twitter cards
 
-- Using Python 3: `python -m http.server 8000` then open http://localhost:8000
-- Using Node (serve): `npx serve` (if you have `serve` installed)
+Next steps:
+- Review the changes in the `site` branch and open a pull request to merge into `main`:
+  https://github.com/martz700/lunga-drive-inn/compare/main...site?expand=1
 
-Files:
-- `index.html` — homepage
-- `src/style.css` — styles implementing utility-like classes used in the HTML
+I will also publish the site to GitHub Pages now by pushing the built site to the `gh-pages` branch so the site is available at:
 
-Notes:
-- If you'd like the site published on GitHub Pages, I can enable Pages and publish from the `main` branch root so it will be available at: https://martz700.github.io/lunga-drive-inn/
-- If you prefer Tailwind for additional utilities, I can switch the HTML to use the Tailwind CDN and remove the local CSS.
+https://martz700.github.io/lunga-drive-inn/
+
+If you want different copy, images, or contact details, tell me and I will update the `site` branch and the PR.
