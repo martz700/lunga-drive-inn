@@ -4,13 +4,71 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>LUNGA DRIVE INN</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+
+  <!-- Social meta -->
+  <meta name="description" content="LUNGA DRIVE INN — Welcome. Good food, great service. Visit us for classic drive-in favorites.">
+  <meta property="og:title" content="LUNGA DRIVE INN">
+  <meta property="og:description" content="Good food, great service — LUNGA DRIVE INN">
+  <meta property="og:image" content="/assets/social-preview.svg">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="LUNGA DRIVE INN">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LUNGA DRIVE INN">
+  <meta name="twitter:description" content="Good food, great service — LUNGA DRIVE INN">
+  <meta name="twitter:image" content="/assets/social-preview.svg">
+
   <link href="src/style.css" rel="stylesheet">
 </head>
 <body>
-  <main class="page">
-    <h1 class="text-3xl font-bold underline">
-      LUNGA DRIVE INN
-    </h1>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/">LUNGA DRIVE INN</a>
+      <nav class="nav">
+        <a href="#contact">Contact</a>
+        <a href="#hours">Hours</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero-title">LUNGA DRIVE INN</h1>
+        <p class="hero-sub">Classic drive-in favorites served with a smile.</p>
+        <p>
+          <a class="btn" href="#contact">Contact Us</a>
+          <a class="btn ghost" href="#menu">See Menu</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="menu" class="container section">
+      <h2>Our menu</h2>
+      <p>Coming soon — burgers, fries, shakes, and daily specials. Check back for updates.</p>
+    </section>
+
+    <section id="contact" class="container section contact">
+      <h2>Contact & Location</h2>
+      <p><strong>Address:</strong> 123 Main St, Your Town</p>
+      <p><strong>Phone:</strong> (555) 555-5555</p>
+      <p><strong>Email:</strong> <a href="mailto:info@lungadriveinn.example">info@lungadriveinn.example</a></p>
+    </section>
+
+    <section id="hours" class="container section hours">
+      <h2>Opening hours</h2>
+      <ul>
+        <li>Mon–Fri: 11:00 — 21:00</li>
+        <li>Sat–Sun: 09:00 — 22:00</li>
+      </ul>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>&copy; "LUNGA DRIVE INN" — All rights reserved.</small>
+    </div>
+  </footer>
 </body>
 </html>
